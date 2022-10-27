@@ -1,0 +1,21 @@
+{
+  "name": "nahida",
+  "displayName": "nahida",
+  "description": "Green theme based on Autumn Leaf and Base16 Leaf Tomorrow",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nahida",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nahida-color-theme.json"
+      }
+    ]
+  }
+}
