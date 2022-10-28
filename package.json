@@ -1,8 +1,15 @@
 {
   "name": "nahida",
   "displayName": "nahida",
-  "description": "Green theme based on Autumn Leaf and Base16 Leaf Tomorrow",
+  "description": "Genshin region Sumeru theme ✨🌵🕌💚",
   "version": "0.0.1",
+  "publisher": "aeiiver",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeiiver/nahida-vscode-theme.git"
+  },
   "engines": {
     "vscode": "^1.72.0"
   },
