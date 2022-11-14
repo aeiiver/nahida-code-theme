@@ -692,8 +692,14 @@
     {
       "scope": ["comment", "string.comment"],
       "settings": {
-        "foreground": "#454245",
+        "foreground": "#777968",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "comment.block.documentation",
+      "settings": {
+        "foreground": "#758d87"
       }
     },
     {
@@ -750,15 +756,26 @@
       }
     },
     {
-      "scope": "keyword.control.directive.include.c",
+      "scope": [
+        "keyword.control.directive.include.c",
+        "comment.line.number-sign.shebang.shell"
+      ],
       "settings": {
-        "foreground": "#FF0000"
+        "foreground": "#a2d835",
+        "fontStyle": "italic bold"
       }
     },
     {
-      "scope": "string.quoted.other.lt-gt.include.c",
+      "scope": ["entity.name.namespace.rust"],
       "settings": {
-        "foreground": "#ffc400"
+        "foreground": "#a2d835",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string.quoted.other.lt-gt.include.c", "entity.name.type.rust"],
+      "settings": {
+        "foreground": "#bbca33"
       }
     },
     {
@@ -836,7 +853,8 @@
         "variable.other.readwrite.instance",
         "variable.other.readwrite.batchfile",
         "variable.readwrite",
-        "variable.readwrite.other.block"
+        "variable.readwrite.other.block",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#c2d669"
@@ -886,7 +904,7 @@
     {
       "scope": "support.constant",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#e0e0e0"
       }
     },
     {
@@ -997,9 +1015,20 @@
       }
     },
     {
-      "scope": ["markup.raw.inline.markdown", "markup.raw.block.markdown"],
+      "scope": "fenced_code.block.language",
       "settings": {
-        "foreground": "#80c0c0"
+        "foreground": "#84a8d6"
+      }
+    },
+    {
+      "scope": [
+        "markup.raw.inline.markdown",
+        "markup.raw.block.markdown",
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": {
+        "foreground": "#7272a8"
       }
     },
     {
